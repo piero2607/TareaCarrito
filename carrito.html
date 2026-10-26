@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de la compra</title>
+    <link rel="stylesheet" href="carrito.css">
+    <script type="module" src="carritojs/app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a tu tienda</h1>
+        <p>Tu tienda online</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Productos disponibles</h2>
+            <div id="productos" class="productos">
+                <p>Cargando productos...</p>
+            </div>
+        </section>
+
+        <section class="carrito">
+            <h2>Mi carrito</h2>
+
+            <div id="resumen">
+                <p>No hay productos seleccionados.</p>
+            </div>
+
+            <div class="total">
+                <span>TOTAL</span>
+                <strong id="total">0,00 €</strong>
+            </div>
+        </section>
+
+        <p id="mensaje" role="status" aria-live="polite"></p>
+    </main>
+</body>
+</html>
